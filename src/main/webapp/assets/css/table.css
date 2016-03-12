@@ -1,0 +1,18 @@
+.px4 {
+	color: #333333;
+	background: #EFF6FE;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-top: #FFFFFF 1px solid;
+	border-left: #FFFFFF 1px solid;
+	height: 40px;
+	font-size: 14px;
+	font-family:  "Î¢ÈíÑÅºÚ", "·½ÕýºÚÌå¼ò","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.fontbold{
+	font-weight: bold;
+}
+
+.padingtop20{
+	padding-top: 20px;
+}

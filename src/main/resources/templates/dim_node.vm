@@ -1,0 +1,22 @@
+/**
+ * 根据字典生成的JS, 用于页面翻译
+ */
+var dimDatas = new function(){
+	this.data = new Object(),
+	this.put = function(key, index, value){
+		if(this.data[key] == null){
+			this.data[key] = new Object();
+		}
+		this.data[key][index] = value;
+	},
+	this.get = function(key, index){
+		if(this.data[key] != null){
+			return this.data[key][index];
+		}
+		return null;
+	};
+};
+
+#foreach($n in $nodes)
+dimDatas.put('${n.treeNo}', '${n.nodeNo}', '${n.nodeName}');
+#end
